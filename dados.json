@@ -1,0 +1,178 @@
+{
+  "referencia_preco_modulos": {
+    "ref_preco_total": {
+      "maternal1": 232.4,
+      "maternal2": 521.69,
+      "infantil1": 591.30,
+      "infantil2": 655.83,
+      "primario": 989.94,
+      "ginasio": 1171.17
+    },
+    "ref_preco_cadernos": {
+      "cadernos_maternal1": {
+        "parte1": 232.4
+      },
+      "cadernos_maternal2": {
+        "parte1": 260.845,
+        "parte2": 260.845
+      },
+      "cadernos_infantil1": {
+        "parte1": 295.65,
+        "parte2": 295.65
+      },
+      "cadernos_infantil2": {
+        "parte1": 327.915,
+        "parte2": 327.915
+      },
+      "cadernos_primario": {
+        "caderno1": 247.485,
+        "caderno2": 247.485,
+        "caderno3": 247.485,
+        "caderno4": 247.485,
+        "ingles_artes_primario": null
+      },
+      "cadernos_ginasio": {
+        "caderno1": 292.7925,
+        "caderno2": 292.7925,
+        "caderno3": 292.7925,
+        "caderno4": 292.7925,
+        "filosofia_ginasio": null
+      }
+    }
+  },
+  "referencia_datas_unidades": {
+    "unidade1": "2022-02-01",
+    "unidade2": "2022-04-18",
+    "unidade3": "2022-07-11",
+    "unidade4": "2022-10-17"
+  },
+  "alunos": {
+    "alunos_infantil": [
+      {
+        "matricula": 20220301,
+        "nome": "ALUNO1",
+        "serie": "infantil1",
+        "num_parcelas": 1,
+        "parcelas": {
+          "parcela1": {
+            "valor_parcela": 532.17,
+            "status_pagamento": true,
+            "data_vencimento": "2022-01-25"
+          }
+        },
+        "parte1": true,
+        "parte2": true,
+        "status_retirada": false,
+        "email": "saad.aluno@gmail.com"
+      }
+    ],
+    "alunos_primario": [
+      {
+        "matricula": 20220501,
+        "nome": "ALUNO2",
+        "serie": "4º ano",
+        "num_parcelas": 4,
+        "parcelas": {
+          "parcela1": {
+            "valor_parcela": 232.65,
+            "status_pagamento": true,
+            "data_vencimento": "2022-01-15"
+          },
+          "parcela2": {
+            "valor_parcela": 232.65,
+            "status_pagamento": true,
+            "data_vencimento": "2022-02-15"
+          },
+          "parcela3": {
+            "valor_parcela": 232.65,
+            "status_pagamento": true,
+            "data_vencimento": "2022-03-15"
+          },
+          "parcela4": {
+            "valor_parcela": 232.65,
+            "status_pagamento": true,
+            "data_vencimento": "2022-04-15"
+          }
+        },
+        "caderno1": true,
+        "ingles_artes_primario": true,
+        "caderno2": true,
+        "caderno3": true,
+        "caderno4": false,
+        "status_retirada": false,
+        "email": "saad.aluno@gmail.com"
+      },
+      {
+        "matricula": 20220502,
+        "nome": "ALUNO3",
+        "serie": "2º ano",
+        "num_parcelas": null,
+        "parcelas": null,
+        "caderno1": false,
+        "ingles_artes_primario": false,
+        "caderno2": false,
+        "caderno3": false,
+        "caderno4": false,
+        "status_retirada": false,
+        "email": "saad.aluno@gmail.com"
+      }
+    ],
+    "alunos_ginasio": [
+      {
+        "matricula": 20220601,
+        "nome": "ALUNO4",
+        "serie": "6º ano",
+        "num_parcelas": 1,
+        "parcelas": {
+          "parcela1": {
+            "valor_parcela": 1171.17,
+            "status_pagamento": true,
+            "data_vencimento": "2021-11-20"
+          }
+        },
+        "caderno1": true,
+        "caderno2": true,
+        "caderno3": true,
+        "filosofia_ginasio": true,
+        "caderno4": true,
+        "status_retirada": false,
+        "email": "saad.aluno@gmail.com"
+      },
+      {
+        "matricula": 20220602,
+        "nome": "ALUNO5",
+        "serie": "7º ano",
+        "num_parcelas": 4,
+        "parcelas": {
+          "parcela1": {
+            "valor_parcela": 275.22,
+            "status_pagamento": true,
+            "data_vencimento": "2021-12-10"
+          },
+          "parcela2": {
+            "valor_parcela": 275.22,
+            "status_pagamento": true,
+            "data_vencimento": "2022-01-10"
+          },
+          "parcela3": {
+            "valor_parcela": 275.22,
+            "status_pagamento": true,
+            "data_vencimento": "2022-02-10"
+          },
+          "parcela4": {
+            "valor_parcela": 275.22,
+            "status_pagamento": true,
+            "data_vencimento": "2022-03-10"
+          }
+        },
+        "caderno1": true,
+        "caderno2": true,
+        "caderno3": true,
+        "filosofia_ginasio": true,
+        "caderno4": true,
+        "status_retirada": false,
+        "email": "saad.aluno@gmail.com"
+      }
+    ]
+  }
+}
